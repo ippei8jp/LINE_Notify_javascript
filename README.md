@@ -1,7 +1,7 @@
 # LINE Notify にメッセージ送信するテストプログラム(Javascript版)
 
 ## 概要
-LINE Notifyについてはこちら→ <https://notify-bot.line.me/ja/>{:target="_blank"} 
+LINE Notifyについてはこちら→ <https://notify-bot.line.me/ja/>   
 tls(socket通信)、https、fetch それぞれのモジュールを使用したテストプログラムを作成しました。
 fetch APIを使うものはNode.js V18以降が必要ですが、その他はちょっとくらい古くても大丈夫でしょう。
 
@@ -10,7 +10,7 @@ fetch APIを使うものはNode.js V18以降が必要ですが、その他はち
 (これには上位プロトコルのモジュールがなかった)  
 それをNode.jsで今風(主にclass化)に書き直してみようと思ったのがきっかけです。  
 
-参考：[Espruino on ESP32 で LINE(その1)](https://ippei8jp.hatenablog.jp/entry/2017/07/29/113554){:target="_blank"}  
+参考：[Espruino on ESP32 で LINE(その1)](https://ippei8jp.hatenablog.jp/entry/2017/07/29/113554)  
 
 でもって、どうせならと上位プロトコルのモジュールでも試してみようとhttpsとfetch版も追加しました。
 でも、モジュールインストールするのはめんどっちいので、標準モジュールだけで。  
@@ -19,7 +19,7 @@ fetch APIを使うものはNode.js V18以降が必要ですが、その他はち
 
 
 ## 事前準備
-アクセストークンが必要なので、[このへん](https://qiita.com/iitenkida7/items/576a8226ba6584864d95){:target="_blank"}
+アクセストークンが必要なので、[このへん](https://qiita.com/iitenkida7/items/576a8226ba6584864d95)
 を参考にアクセストークンを取得してください。  
 
 取得したアクセストークンは``access_token.js``ファイルに以下のように格納してください。  
