@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# for visual studio code
+.vscode/
+
+# temporary file
+*.log
+*.tmp*
+*.old*
+
+# access token file
+access_token.js
+
+
